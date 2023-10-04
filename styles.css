@@ -1,0 +1,16 @@
+/* Estilo para el contenedor de las filas */
+.fila-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espacio entre elementos */
+}
+
+/* Estilo para cada elemento de la fila */
+.elemento {
+    width: calc(10% - 10px); /* El 10% asegura 10 elementos por fila */
+    background-color: #f0f0f0; /* Color de fondo (opcional) */
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
